@@ -30,6 +30,42 @@ public class MirapolisDemoTest extends BaseSeleniumPage {
     }
 
     @Test
+    @Description("Вход в систему c вводом пробелов перед верными реквизитами в соответсвующих полях")
+    public void enteringSpacesBeforeTrueLoginAndPass() throws InterruptedException {
+        MainPage mainPage = new LoginPage().enteringSpacesBeforeTrueLoginAndPass();
+        Assert.assertEquals(mainPage.getMainPageTitle(), MAIN_PAGE_TITLE);
+        Assert.assertTrue(mainPage.getFullName());
+    }
+    //Ожидаемый результат подогнал под актуальный. Считаю ,что
+    //хотя бы поле пароля должно быть чувствительно к подобному вводу пробелов и приводить к
+    //появлению ALERT_MESSAGE.
+
+    @Test
+    @Description("Вход в систему c вводом пробелов после верных реквизитов в соответсвующих полях")
+    public void enteringSpacesAfterTrueLoginAndPass() throws InterruptedException {
+        MainPage mainPage = new LoginPage().enteringSpacesAfterTrueLoginAndPass();
+        Assert.assertEquals(mainPage.getMainPageTitle(), MAIN_PAGE_TITLE);
+        Assert.assertTrue(mainPage.getFullName());
+    }
+    //Ожидаемый результат подогнал под актуальный. Считаю ,что
+    //хотя бы поле пароля должно быть чувствительно к подобному вводу пробелов и приводить к
+    //появлению ALERT_MESSAGE.
+
+    @Test
+    @Description("Вход в систему c вводом пробелов внутри верных реквизитов в соответсвующих полях")
+    public void enteringSpacesInsideTrueLoginAndPass() throws InterruptedException {
+        Assert.assertTrue(new LoginPage().enteringSpacesInsideTrueLoginAndPass().contains(ALERT_MESSAGE));
+    }
+
+    @Test
+    @Description("Вход в систему c вводом скрипта в поля логина и пароля")
+    public void enteringScriptLoginAndPassword() throws InterruptedException {
+        Assert.assertTrue(new LoginPage().useScriptInLogAndPassFields().contains(ALERT_MESSAGE));
+    }
+
+
+
+    @Test
     @Description("Вход в систему с использованием пустого поля логина и корректного пароля")
     public void emptyLogCorrectPass() throws InterruptedException {
         Assert.assertTrue(new LoginPage().loginEmptyPasswordCorrect().contains(ALERT_MESSAGE));

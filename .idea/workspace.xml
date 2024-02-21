@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed521045-1a8e-4a06-b152-8e5933ecf79e" name="Changes" comment="" />
+    <list default="true" id="ed521045-1a8e-4a06-b152-8e5933ecf79e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mirapolisDemo/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mirapolisDemo/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mirapolisDemo/MirapolisDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mirapolisDemo/MirapolisDemoTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -39,8 +44,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MirapolisDemoTest.CorrectLogEmptyPass">
-    <configuration name="MirapolisDemoTest.CorrectLogEmptyPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MirapolisDemoTest.backToLoginPage">
+    <configuration name="MirapolisDemoTest.backToLoginPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mirapolisProject" />
       <extension name="coverage">
         <pattern>
@@ -50,13 +55,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="mirapolisDemo" />
       <option name="MAIN_CLASS_NAME" value="mirapolisDemo.MirapolisDemoTest" />
-      <option name="METHOD_NAME" value="CorrectLogEmptyPass" />
+      <option name="METHOD_NAME" value="backToLoginPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MirapolisDemoTest.emptyFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MirapolisDemoTest.enteringScriptLoginAndPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mirapolisProject" />
       <extension name="coverage">
         <pattern>
@@ -66,13 +71,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="mirapolisDemo" />
       <option name="MAIN_CLASS_NAME" value="mirapolisDemo.MirapolisDemoTest" />
-      <option name="METHOD_NAME" value="emptyFields" />
+      <option name="METHOD_NAME" value="enteringScriptLoginAndPassword" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MirapolisDemoTest.onlySpaceButtonInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MirapolisDemoTest.enteringSpacesAfterTrueLoginAndPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mirapolisProject" />
       <extension name="coverage">
         <pattern>
@@ -82,13 +87,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="mirapolisDemo" />
       <option name="MAIN_CLASS_NAME" value="mirapolisDemo.MirapolisDemoTest" />
-      <option name="METHOD_NAME" value="onlySpaceButtonInput" />
+      <option name="METHOD_NAME" value="enteringSpacesAfterTrueLoginAndPass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MirapolisDemoTest.passwordRecoveryWithEmptyLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MirapolisDemoTest.enteringSpacesBeforeTrueLoginAndPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mirapolisProject" />
       <extension name="coverage">
         <pattern>
@@ -98,13 +103,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="mirapolisDemo" />
       <option name="MAIN_CLASS_NAME" value="mirapolisDemo.MirapolisDemoTest" />
-      <option name="METHOD_NAME" value="passwordRecoveryWithEmptyLogin" />
+      <option name="METHOD_NAME" value="enteringSpacesBeforeTrueLoginAndPass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MirapolisDemoTest.trueLogWithUpperCaseAndPassWithLowerCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MirapolisDemoTest.enteringSpacesInsideTrueLoginAndPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mirapolisProject" />
       <extension name="coverage">
         <pattern>
@@ -114,7 +119,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="mirapolisDemo" />
       <option name="MAIN_CLASS_NAME" value="mirapolisDemo.MirapolisDemoTest" />
-      <option name="METHOD_NAME" value="trueLogWithUpperCaseAndPassWithLowerCase" />
+      <option name="METHOD_NAME" value="enteringSpacesInsideTrueLoginAndPass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MirapolisDemoTest.CorrectLogEmptyPass" />
-        <item itemvalue="JUnit.MirapolisDemoTest.trueLogWithUpperCaseAndPassWithLowerCase" />
-        <item itemvalue="JUnit.MirapolisDemoTest.emptyFields" />
-        <item itemvalue="JUnit.MirapolisDemoTest.onlySpaceButtonInput" />
-        <item itemvalue="JUnit.MirapolisDemoTest.passwordRecoveryWithEmptyLogin" />
+        <item itemvalue="JUnit.MirapolisDemoTest.backToLoginPage" />
+        <item itemvalue="JUnit.MirapolisDemoTest.enteringScriptLoginAndPassword" />
+        <item itemvalue="JUnit.MirapolisDemoTest.enteringSpacesInsideTrueLoginAndPass" />
+        <item itemvalue="JUnit.MirapolisDemoTest.enteringSpacesAfterTrueLoginAndPass" />
+        <item itemvalue="JUnit.MirapolisDemoTest.enteringSpacesBeforeTrueLoginAndPass" />
       </list>
     </recent_temporary>
   </component>

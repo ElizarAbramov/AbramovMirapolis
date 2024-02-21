@@ -126,9 +126,7 @@ public class LoginPage extends BaseSeleniumPage {
         Thread.sleep(2000);
         return new MainPage();
     }
-    //Ожидаемый результат подогнал под актуальный. Считаю ,что
-    //хотя бы поле пароля должно быть чувствительно к подобному вводу пробелов и приводить к
-    //появлению ALERT_MESSAGE.
+
 
     public  MainPage enteringSpacesAfterTrueLoginAndPass() throws InterruptedException {
         loginField.sendKeys(TRUE_LOG_WITH_SPACES_AFTER);
@@ -137,9 +135,6 @@ public class LoginPage extends BaseSeleniumPage {
         Thread.sleep(2000);
         return new MainPage();
     }
-    //Ожидаемый результат подогнал под актуальный. Считаю ,что
-    //хотя бы поле пароля должно быть чувствительно к подобному вводу пробелов и приводить к
-    //появлению ALERT_MESSAGE.
 
     public  String enteringSpacesInsideTrueLoginAndPass() throws InterruptedException {
         loginField.sendKeys(TRUE_LOG_WITH_SPACES_INSIDE);
