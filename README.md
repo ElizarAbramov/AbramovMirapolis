@@ -6,4 +6,7 @@
 * Оценить результат прогона тестов в терминале"
 
 >[!NOTE]
-Под тестами 
+Под тестами
+>https://github.com/ElizarAbramov/AbramovMirapolis/blob/68345cb39ca806a6678169ffd2158bd697d7415a/src/test/java/mirapolisDemo/MirapolisDemoTest.java#L33
+>https://github.com/ElizarAbramov/AbramovMirapolis/blob/68345cb39ca806a6678169ffd2158bd697d7415a/src/test/java/mirapolisDemo/MirapolisDemoTest.java#L44
+указал комментарии с возможными багами.
