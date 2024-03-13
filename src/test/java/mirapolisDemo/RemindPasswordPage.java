@@ -1,21 +1,19 @@
 package mirapolisDemo;
 
 import core.BaseSeleniumPage;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import static helpers.Helper.randomValue;
-import static helpers.TestValues.TRUE_LOG;
-
 public class RemindPasswordPage extends BaseSeleniumPage {
-    @FindBy(xpath = "//button[contains(text(),'Отправить')]")
+    @FindBy(xpath = "//button[@class='mira-page-forgot-password-button']")
     private WebElement sendButton;
-    @FindBy(xpath = "//div[contains(text(),'Назад к входу в систему')]")
+    @FindBy(xpath = "//a[@class='mira-page-forgot-password-link'] ")
     private WebElement backToLoginPageButton;
-    @FindBy(xpath = "//tbody/tr[1]/td[2]/input[1]")
+    @FindBy(xpath = "//input[@class='mira-widget-login-input mira-default-login-page-text-input']")
     private WebElement loginOrMailField;
-    @FindBy(xpath = "//div[contains(text(),'Пользователь с таким именем не найден.')]")
+    @FindBy(xpath = "//div[@class='alert']")
     private WebElement alertMessage;
 
     @FindBy(xpath = "//div[@class='success']")
@@ -26,24 +24,19 @@ public class RemindPasswordPage extends BaseSeleniumPage {
     }
 
 
-    public String passwordRecoveryWithTrueLogin() {
-        loginOrMailField.sendKeys(TRUE_LOG);
-        sendButton.click();
-        return successMessage.getText();
-    }
-
-    public String passwordRecoveryWithWrongLogin() {
-        String login = randomValue(50);
+    public String passwordRecovery(String login) {
+        String e;
         loginOrMailField.sendKeys(login);
         sendButton.click();
-        return alertMessage.getText();
+        try {
+            e = successMessage.getText();
+        } catch (NoSuchElementException exception) {
+            e = alertMessage.getText();
+        }
+        return e;
+
     }
 
-    public String passwordRecoveryWithEmptyLogin() {
-        loginOrMailField.sendKeys("");
-        sendButton.click();
-        return alertMessage.getText();
-    }
 
     public LoginPage clickOnBackButton() {
         backToLoginPageButton.click();

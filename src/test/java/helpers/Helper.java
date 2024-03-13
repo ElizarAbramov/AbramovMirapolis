@@ -7,12 +7,6 @@ import java.util.Random;
 
 public class Helper extends BaseSeleniumPage {
 
-    public String getTextFromAlertAndClose() {
-        String altmsg = driver.switchTo().alert().getText();
-        driver.switchTo().alert().accept();
-        return altmsg;
-    }
-
     public static String randomValue(int length) {
         String alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
         StringBuilder sb = new StringBuilder();

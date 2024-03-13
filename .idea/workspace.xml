@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed521045-1a8e-4a06-b152-8e5933ecf79e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/core/SeleniumInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/SeleniumInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/TestValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/TestValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mirapolisDemo/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mirapolisDemo/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mirapolisDemo/MirapolisDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mirapolisDemo/MirapolisDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mirapolisDemo/MirapolisDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/MirapolisDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mirapolisDemo/RemindPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mirapolisDemo/RemindPasswordPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -37,89 +43,89 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/mirapolisProject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/untitled1&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MirapolisDemoTest.backToLoginPage">
+  <component name="RunManager" selected="JUnit.MirapolisDemoTest.hidePasswordTest">
     <configuration name="MirapolisDemoTest.backToLoginPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mirapolisProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mirapolisDemo.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mirapolisDemo" />
-      <option name="MAIN_CLASS_NAME" value="mirapolisDemo.MirapolisDemoTest" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MirapolisDemoTest" />
       <option name="METHOD_NAME" value="backToLoginPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MirapolisDemoTest.enteringScriptLoginAndPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MirapolisDemoTest.hidePasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mirapolisProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mirapolisDemo.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mirapolisDemo" />
-      <option name="MAIN_CLASS_NAME" value="mirapolisDemo.MirapolisDemoTest" />
-      <option name="METHOD_NAME" value="enteringScriptLoginAndPassword" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MirapolisDemoTest" />
+      <option name="METHOD_NAME" value="hidePasswordTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MirapolisDemoTest.enteringSpacesAfterTrueLoginAndPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MirapolisDemoTest.passwordRecoveryWithEmptyLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mirapolisProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mirapolisDemo.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mirapolisDemo" />
-      <option name="MAIN_CLASS_NAME" value="mirapolisDemo.MirapolisDemoTest" />
-      <option name="METHOD_NAME" value="enteringSpacesAfterTrueLoginAndPass" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MirapolisDemoTest" />
+      <option name="METHOD_NAME" value="passwordRecoveryWithEmptyLogin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MirapolisDemoTest.enteringSpacesBeforeTrueLoginAndPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MirapolisDemoTest.passwordRecoveryWithTrueLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mirapolisProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mirapolisDemo.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mirapolisDemo" />
-      <option name="MAIN_CLASS_NAME" value="mirapolisDemo.MirapolisDemoTest" />
-      <option name="METHOD_NAME" value="enteringSpacesBeforeTrueLoginAndPass" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MirapolisDemoTest" />
+      <option name="METHOD_NAME" value="passwordRecoveryWithTrueLogin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MirapolisDemoTest.enteringSpacesInsideTrueLoginAndPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MirapolisDemoTest.passwordRecoveryWithWrongLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mirapolisProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mirapolisDemo.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mirapolisDemo" />
-      <option name="MAIN_CLASS_NAME" value="mirapolisDemo.MirapolisDemoTest" />
-      <option name="METHOD_NAME" value="enteringSpacesInsideTrueLoginAndPass" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MirapolisDemoTest" />
+      <option name="METHOD_NAME" value="passwordRecoveryWithWrongLogin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MirapolisDemoTest.hidePasswordTest" />
         <item itemvalue="JUnit.MirapolisDemoTest.backToLoginPage" />
-        <item itemvalue="JUnit.MirapolisDemoTest.enteringScriptLoginAndPassword" />
-        <item itemvalue="JUnit.MirapolisDemoTest.enteringSpacesInsideTrueLoginAndPass" />
-        <item itemvalue="JUnit.MirapolisDemoTest.enteringSpacesAfterTrueLoginAndPass" />
-        <item itemvalue="JUnit.MirapolisDemoTest.enteringSpacesBeforeTrueLoginAndPass" />
+        <item itemvalue="JUnit.MirapolisDemoTest.passwordRecoveryWithEmptyLogin" />
+        <item itemvalue="JUnit.MirapolisDemoTest.passwordRecoveryWithWrongLogin" />
+        <item itemvalue="JUnit.MirapolisDemoTest.passwordRecoveryWithTrueLogin" />
       </list>
     </recent_temporary>
   </component>

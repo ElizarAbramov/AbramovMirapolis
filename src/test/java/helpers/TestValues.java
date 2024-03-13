@@ -6,7 +6,6 @@ public class TestValues {
     public static String TRUE_PASS = "1P73BP4Z";
     public static String MAIN_PAGE_TITLE = "Главная страница";
     public static String ALERT_MESSAGE = "Неверные данные для авторизации";
-    public static String ALERT_MESSAGE_WITH_DOT = "Неверные данные для авторизации.";
     public static String ALERT_MESSAGE_MAX = "Логин или пароль слишком длинные";
     public static String SUCCESS_MESSAGE = "На ваш электронный адрес отправлена инструкция по восстановлению пароля.";
     public static  String ALERT_MESSAGE_REMIND_PASS = "Пользователь с таким именем не найден.";
